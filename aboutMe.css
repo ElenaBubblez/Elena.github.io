@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+html, body
+{
+    letter-spacing: 2px;
+    height: 100%;
+    width: 100%
+    
+}
+
+body
+{
+    background-color: #424874 ;
+    font-family: 'Dosis', sans-serif;
+}
+
+.jumbotron
+{
+    color: #424874;
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin: 5% 20% 5% 20%;
+    background-color: #a6b1e1;
+}
+
+
+
+.row2, .row3
+{
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+
+.col1
+{
+    padding: 3%;
+}
+
+.card
+{
+height:fit-content ;
+width: fit-content;
+border-radius: 20px;
+background-color: #a6b1e1;
+color:  #424874 ;
+border-style: none;
+}
+
+img
+{
+height: 260px;
+border-radius: 20px;
+}
+
+h3
+{
+    color: lavender;
+}
+
+.carousel-control-next-icon
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#424874 ' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon
+ {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#424874 ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon 
+{
+    filter: invert();
+}  
+
+.image1, .image2, .image3, .image4
+{
+    height: fit-content ;
+}
+
+.navbar
+{
+    border-bottom-style: groove;
+    border-bottom-color:  #a6b1e1;
+    background-color: #424874;
+}
+
+.scrollDiv
+{
+    position: fixed;
+    top: 60px; /* same height as navbar */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+

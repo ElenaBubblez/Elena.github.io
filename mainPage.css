@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+html, body
+{
+    letter-spacing: 2px;
+    height: 100%;
+    width: 100%
+    
+}
+
+body
+{
+    background-color: #424874 ;
+    font-family: 'Dosis', sans-serif;
+}
+
+#jumboHeading
+{
+    color: #424874;
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin: 4% 20% 4% 20%;
+    background-color: #a6b1e1;
+}
+
+.imageMe
+{
+height: 400px;
+width: 300px;
+border-radius: 50%;
+}
+
+.col-mx-auto
+{
+    margin: 3%;
+}
+.card
+{
+    background-color: transparent;
+    border: none;
+} 
+
+
+#contactForm
+{
+    color: lavender;
+}
+#messageBox
+{
+    text-align: start;
+height: 200px;
+width: 500px;
+}
+
+
+.row2, .row5
+{
+    color: lavender;
+    border-bottom-style: dotted;
+    border-bottom-color:  #a6b1e1;
+    margin: 0% 10% 0% 10%;
+    padding-bottom: 4%;
+    list-style-position: inside;
+}
+
+.row7
+{
+    color: lavender;
+    border-bottom-style: dotted;
+    border-bottom-color:  #a6b1e1;
+    margin: 0% 10% 0% 10%;
+    
+}
+
+.row4
+{
+    margin: 0% 10% 0% 10%;
+    padding-bottom: 4%;
+    list-style-position: inside;
+}
+
+#badge
+{
+    height: 150px;
+    width:150px;
+}
+
+.navbar
+{
+
+    border-bottom-style: groove;
+    border-bottom-color:  #a6b1e1;
+    background-color: #424874;
+    
+}
+
+.scrollDiv
+{
+    position: fixed;
+    top: 60px; /* same height as navbar */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.jumboSubHead
+{
+    color: #424874;
+    border-style: dotted;
+    border-color: lavender;
+    border-radius: 20px;
+    margin: 4% 30% 4% 30%;
+    background-color: #a6b1e1;
+}
+
