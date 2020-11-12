@@ -20,7 +20,7 @@ body
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin: 5% 20% 5% 20%;
+    margin: 2% 20% 2% 20%;
     background-color: #a6b1e1;
 }
 
@@ -30,13 +30,13 @@ body
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 
 .col1
 {
-    padding: 3%;
+    padding: 1%;
 }
 
 .card

@@ -21,7 +21,7 @@ body
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin: 4% 20% 4% 20%;
+    margin: 2% 20% 2% 20%;
     background-color: #a6b1e1;
 }
 
@@ -47,12 +47,12 @@ height: auto;
 
 .col
 {
-padding: 3%;
+padding: 1%;
 }
 
 .col-mx-auto
 {
-    margin: 3%;
+    margin: 1%;
 }
 .card
 {
@@ -73,7 +73,7 @@ padding: 3%;
     border-bottom-style: dotted;
     border-bottom-color:  #a6b1e1;
     margin: 0% 10% 0% 10%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
     list-style-position: inside;
 }
 
@@ -89,7 +89,7 @@ padding: 3%;
 .row4
 {
     margin: 0% 10% 0% 10%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
     list-style-position: inside;
 }
 
@@ -105,7 +105,7 @@ padding: 3%;
     border-bottom-style: groove;
     border-bottom-color:  #a6b1e1;
     background-color: #424874;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 .scrollDiv
@@ -125,7 +125,7 @@ padding: 3%;
     border-style: dotted;
     border-color: lavender;
     border-radius: 20px;
-    margin: 4% 30% 4% 30%;
+    margin: 2% 30% 2% 30%;
     background-color: #a6b1e1;
 }
 
