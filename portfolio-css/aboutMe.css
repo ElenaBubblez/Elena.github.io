@@ -25,7 +25,6 @@ body
 }
 
 
-
 .row2, .row3
 {
     border-style: dotted;
@@ -42,8 +41,12 @@ body
 
 .card
 {
-height:fit-content ;
-width: fit-content;
+width: 100%;
+max-width: 200px;
+height: auto;
+border-radius: 20px;
+/* height:fit-content ;
+width: fit-content; */
 border-radius: 20px;
 background-color: #a6b1e1;
 color:  #424874 ;
@@ -52,7 +55,9 @@ border-style: none;
 
 img
 {
-height: 260px;
+width: 100%;
+max-width: 200px;
+height: auto;
 border-radius: 20px;
 }
 
@@ -61,25 +66,21 @@ h3
     color: lavender;
 }
 
-.carousel-control-next-icon
-{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#424874 ' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+.carousel-item{
+    text-align:center;
+    }
+    
+.carousel-inner img{
+display:inline-block  !important;
 }
 
-.carousel-control-prev-icon
- {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#424874 ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon 
-{
-    filter: invert();
-}  
 
 .image1, .image2, .image3, .image4
 {
-    height: fit-content ;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
 }
 
 .navbar
@@ -92,7 +93,7 @@ h3
 .scrollDiv
 {
     position: fixed;
-    top: 60px; /* same height as navbar */
+    top: 70px; /* top of the scroll is below navbar */
     left: 0;
     right: 0;
     bottom: 0;
