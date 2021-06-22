@@ -4,15 +4,13 @@ html, body
 {
     letter-spacing: 2px;
     height: 100%;
-    width: 100%
-    
+    width: 100%;
+    background-color: #424874;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
 }
 
-body
-{
-    background-color: #424874 ;
-    font-family: 'Dosis', sans-serif;
-}
+
 
 .jumbotron
 {
@@ -90,14 +88,18 @@ display:inline-block  !important;
     background-color: #424874;
 }
 
-.scrollDiv
-{
-    position: fixed;
-    top: 70px; /* top of the scroll is below navbar */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    background: black;
+  
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+  }
